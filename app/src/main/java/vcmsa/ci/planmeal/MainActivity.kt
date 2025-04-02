@@ -1,5 +1,4 @@
 package vcmsa.ci.planmeal
-
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -29,9 +28,7 @@ class MainActivity : AppCompatActivity() {
         btnExit = findViewById(R.id.btnExit)
         checkBtn = findViewById(R.id.checkBtn)
         greetingTxt = findViewById(R.id.greetingTxt)
-        inputUser = findViewById(R.id.inputUser) //the user input time of day//
-        //inputUser and userInput are the same//
-
+        inputUser = findViewById(R.id.inputUser)
 
 
 
@@ -64,7 +61,7 @@ class MainActivity : AppCompatActivity() {
     private fun isNotEmpty(): Boolean {
         var b = true
         if (inputUser.text.toString().trim().isEmpty()) {
-            inputUser.error = "Input Required!"
+            inputUser.error = "Oops!Input Required!"
 
             b = false
         }
@@ -83,7 +80,7 @@ class MainActivity : AppCompatActivity() {
                 in 1101..1200 -> userResult.text = "Mid-Morning - Eggs or Pancakes"
                 in 1201.. 1600-> userResult.text = "Lunch - Pizza or Waffles and Ice Cream"
                 in 1601..1700 -> userResult.text = "Snack - Peanuts or Oranges"
-                in 1701..1900 -> userResult.text = "Dinner - Sirlion,chips and mushroom sauce or Beef Burger"
+                in 1701..1900 -> userResult.text = "Dinner - Sir lion,chips and mushroom sauce or Beef Burger"
 
 
                 else -> {
@@ -94,3 +91,5 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+//The independent Institute of Education ,2025. Introduction to Mobile Application Development IMAD5112/p/w Module Manual. The Independent Institute of Education: Unpublished. //
+//The Independent Institute of Education, 2025. Introduction to Mobile Application Development [IMAD5112]. nt. [online via internal VLE] The Independent Institute of Education.[Source Code] Available at: <Lecture Slides - IMAD5112: APP Gen Revised XML Main > [Accessed Date 02 February 2025]. <https://mystudies.iie.edu.za/d2l/le/lessons/22118/topics/2205037>//

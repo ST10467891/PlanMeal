@@ -3,10 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/foodwallpaper"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
 
     <Button
@@ -45,6 +47,7 @@
         android:layout_marginTop="216dp"
         android:ems="10"
         android:hint="Please Input Time of Day"
+        android:textColor="@color/brown"
         android:inputType="text"
         android:minHeight="48dp"
         app:layout_constraintEnd_toStartOf="@+id/btnClear"
@@ -67,16 +70,18 @@
 
     <TextView
         android:id="@+id/userInput"
-        android:layout_width="176dp"
-        android:layout_height="127dp"
+        android:layout_width="348dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="85dp"
         android:layout_marginBottom="168dp"
         android:text=""
-        android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textColor="@color/brown"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/btnExit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputUser" />
 
     <Button
         android:id="@+id/checkBtn"
@@ -86,9 +91,10 @@
         android:backgroundTint="@color/beige"
         android:text="Check Result"
         android:textColor="@color/brown"
-        app:layout_constraintBottom_toBottomOf="@+id/btnExit"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+<!-- Carmen Vanegas, 2020.Modern aesthetic background.[Image Online]Available at:<https://za.pinterest.com/pin/104145810133466398/>[Accessed 22 March 2025]
