@@ -13,20 +13,22 @@
 
     <Button
         android:id="@+id/btnExit"
-        android:layout_width="193dp"
-        android:layout_height="57dp"
+        android:layout_width="278dp"
+        android:layout_height="67dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/beige"
         android:text="Exit"
+        android:textSize="20dp"
         android:textColor="@color/brown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/greetingTxt"
-        android:layout_width="295dp"
-        android:layout_height="115dp"
+        android:layout_width="278dp"
+        android:layout_height="65dp"
         android:layout_marginTop="72dp"
         android:fontFamily="serif"
         android:fontFeatureSettings=""
@@ -41,15 +43,16 @@
 
     <EditText
         android:id="@+id/inputUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="277dp"
+        android:layout_height="89dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="216dp"
         android:ems="10"
         android:hint="Please Input Time of Day"
-        android:textColor="@color/brown"
         android:inputType="text"
         android:minHeight="48dp"
+        android:textColor="@color/brown"
+        android:textSize="20dp"
         app:layout_constraintEnd_toStartOf="@+id/btnClear"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,12 +60,13 @@
 
     <Button
         android:id="@+id/btnClear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="288dp"
+        android:layout_width="144dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="316dp"
         android:backgroundTint="@color/beige"
         android:text="Clear Text"
         android:textColor="@color/brown"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,26 +79,42 @@
         android:layout_marginTop="85dp"
         android:layout_marginBottom="168dp"
         android:text=""
-        android:textColor="@color/brown"
+        android:textColor="@color/beige"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="@+id/btnExit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputUser" />
+        app:layout_constraintTop_toBottomOf="@+id/inputUser"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/checkBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="219dp"
+        android:layout_height="59dp"
         android:layout_marginBottom="88dp"
         android:backgroundTint="@color/beige"
         android:text="Check Result"
+        android:textSize="20dp"
         android:textColor="@color/brown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="286dp"
+        android:layout_height="125dp"
+        android:text="Various Meal types have been selected for you.Continue below."
+        android:textColor="@color/beige"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/inputUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintTop_toBottomOf="@+id/greetingTxt"
+        app:layout_constraintVertical_bias="0.142" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-<!-- Carmen Vanegas, 2020.Modern aesthetic background.[Image Online]Available at:<https://za.pinterest.com/pin/104145810133466398/>[Accessed 22 March 2025]
+<!-- Carmen Vanegas, 2020.Modern aesthetic background.[Image Online]Available at:<https://za.pinterest.com/pin/104145810133466398/>[Accessed 22 March 2025]-->
